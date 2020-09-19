@@ -1,5 +1,5 @@
 package a;
 
 public class A {
-	private int a =125;
+	private int a =1;
 }
