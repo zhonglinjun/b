@@ -1,0 +1,17 @@
+https://www.bilibili.com/read/cv21649370
+
+netty 客户端---服务端
+netty 半包粘包
+netty 自带编码解码    换行，自定义字符，定长
+netty 自定义编码解码器
+
+
+netty 文件发送，     先发送头，再发送内容（解码器，每次都会进。区分头(meessage)与内容(bytebuf))
+
+
+
+
+
+1.网关默许可以访问所有的服务器，（根据服务名做为url来访问)
+2.可以配置服务名对应url(可以用配置的url来访问对应的服务)
+3.也可以通过配置service-id来指定服务（不需要通过(eureka注册名）
